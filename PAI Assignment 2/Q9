@@ -1,0 +1,8 @@
+import numpy as np
+
+arr = np.random.randint(1, 101, size=25)
+
+percentile_75 = np.percentile(arr, 75)
+
+print("Array:", arr)
+print("75th Percentile:", percentile_75)
