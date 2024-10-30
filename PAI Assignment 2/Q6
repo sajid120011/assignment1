@@ -1,0 +1,14 @@
+import numpy as np
+
+matrix = np.random.randint(1, 11, size=(2, 2))
+
+determinant = np.linalg.det(matrix)
+
+if determinant != 0:
+    inverse = np.linalg.inv(matrix)
+else:
+    inverse = "Not available (determinant is zero)"
+
+print("Matrix:\n", matrix)
+print("Determinant:", determinant)
+print("Inverse:\n", inverse)
