@@ -1,0 +1,12 @@
+import numpy as np
+
+arr = np.arange(1, 11)
+
+sum_arr = np.sum(arr)
+mean_arr = np.mean(arr)
+product_arr = np.prod(arr)
+
+print("Array:", arr)
+print("Sum:", sum_arr)
+print("Mean:", mean_arr)
+print("Product:", product_arr)
